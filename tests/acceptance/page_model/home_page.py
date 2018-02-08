@@ -5,7 +5,7 @@ from tests.acceptance.page_model.base_page import BasePage
 class HomePage(BasePage):
 
     def url(self):
-        return super().url + '/'
+        return super(HomePage, self).url() + '/'
 
     def enter_credentials(self, context):
         username_field = context.driver.find_element(*HomePageLocators.USERNAME)
