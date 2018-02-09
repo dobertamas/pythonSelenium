@@ -16,3 +16,8 @@ def step_impl(context):
 def step_impl(context):
     page = HomePage(context.driver)
     page.click_sign_in(context)
+
+
+@when('Admin user clicks on the "Push Queue" link from the pull-down menu')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: When Admin user clicks on the "Push Queue" link from the pull-down menu')

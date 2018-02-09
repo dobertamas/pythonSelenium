@@ -28,3 +28,4 @@ def step_impl(context):
 
 @given('Admin user successfully logged in')
 def step_impl(context):
+    raise NotImplementedError(u'STEP: Given Admin user successfully logged in')
